@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+uploadImageAcademy,,,,2020-10-18 12:27:38,2020-10-18 12:29:15,1m - 37.197s,PASSED
+,,,,,,,
+Test Cases/BugJira/AcademyUploadImage/AcademyUploadImage,,,,2020-10-18 12:27:39,2020-10-18 12:29:15,1m - 36.574s,PASSED
+"startExistingApplication(""com.ezactive.sgb"", STOP_ON_FAILURE)",,,,2020-10-18 12:27:39,2020-10-18 12:28:20,40.356s,PASSED
+"tap(findTestObject(""SGB/AcademyForm/UpdateRegisterAdult/academy""), 0)",,,,2020-10-18 12:28:20,2020-10-18 12:28:22,2.237s,PASSED
+"tap(findTestObject(""SGB/AcademyForm/UpdateRegisterAdult/registerUpdated""), 0, OPTIONAL)",,,,2020-10-18 12:28:22,2020-10-18 12:28:24,2.141s,PASSED
+"tap(findTestObject(""SGB/AcademyForm/UpdateRegisterAdult/uploadImageNRIC""), 3000)",,,,2020-10-18 12:28:24,2020-10-18 12:28:29,4.921s,PASSED
+"tap(findTestObject(""SGB/DoneButton/XCUIElementTypeButton - Done""), 5000)",,,,2020-10-18 12:28:29,2020-10-18 12:28:32,2.952s,PASSED
+"delay(9, STOP_ON_FAILURE)",,,,2020-10-18 12:28:32,2020-10-18 12:28:41,9.031s,PASSED
+"swipe(500, 500, 500, 200)",,,,2020-10-18 12:28:41,2020-10-18 12:28:42,1.104s,PASSED
+"tap(findTestObject(""SGB/AcademyForm/UpdateRegisterAdult/uploadImageBackOfNRIC""), 0)",,,,2020-10-18 12:28:42,2020-10-18 12:28:45,2.650s,PASSED
+"tap(findTestObject(""SGB/DoneButton/XCUIElementTypeButton - Done""), 5000)",,,,2020-10-18 12:28:45,2020-10-18 12:28:48,2.921s,PASSED
+"delay(9, STOP_ON_FAILURE)",,,,2020-10-18 12:28:48,2020-10-18 12:28:57,9.006s,PASSED
+"swipe(500, 500, 500, 200)",,,,2020-10-18 12:28:57,2020-10-18 12:28:58,0.857s,PASSED
+"tap(findTestObject(""SGB/AcademyForm/UpdateRegisterAdult/uploadTraineePhoto""), 0)",,,,2020-10-18 12:28:58,2020-10-18 12:29:00,2.738s,PASSED
+"tap(findTestObject(""SGB/DoneButton/XCUIElementTypeButton - Done""), 5000)",,,,2020-10-18 12:29:00,2020-10-18 12:29:03,2.936s,PASSED
+"delay(9, STOP_ON_FAILURE)",,,,2020-10-18 12:29:03,2020-10-18 12:29:12,9.004s,PASSED
+"swipe(500, 500, 500, 300)",,,,2020-10-18 12:29:12,2020-10-18 12:29:13,0.848s,PASSED
+"tap(findTestObject(""SGB/AcademyForm/UpdateRegisterAdult/UpdateButton""), 0)",,,,2020-10-18 12:29:13,2020-10-18 12:29:15,2.042s,PASSED

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="uploadImageAcademy" time="98.636" tests="1" failures="0" errors="0">
+   <testsuite name="uploadImageAcademy" tests="1" failures="0" errors="0" time="98.636" timestamp="2020-10-18 12:27:38" hostname="softwareclub - ntus-mbp" id="Test Suites/uploadImageAcademy">
+      <properties>
+         <property name="deviceName" value="NTU Software Club"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/softwareclub/Katalon Studio/new bfa/Reports/20201018_122728/uploadImageAcademy/20201018_122728"/>
+         <property name="logFiles" value="/Users/softwareclub/Katalon Studio/new bfa/Reports/20201018_122728/uploadImageAcademy/20201018_122728/execution0.log, /Users/softwareclub/Katalon Studio/new bfa/Reports/20201018_122728/uploadImageAcademy/20201018_122728/appium.log, /Users/softwareclub/Katalon Studio/new bfa/Reports/20201018_122728/uploadImageAcademy/20201018_122728/appium-proxy-server.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="softwareclub - ntus-mbp"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.18.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="1.18.3"/>
+         <property name="deviceModel" value="iPhone7,1"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="20d0959f04db979fd5d14f57b4c2ec9e98df5e9f"/>
+         <property name="deviceName" value="NTU Software Club"/>
+         <property name="deviceOSVersion" value="12.4.7"/>
+      </properties>
+      <testcase name="Test Cases/BugJira/AcademyUploadImage/AcademyUploadImage" time="96.574" classname="Test Cases/BugJira/AcademyUploadImage/AcademyUploadImage" status="PASSED">
+         <system-out><![CDATA[2020-10-18 12:27:39 - [TEST_CASE][PASSED] - Test Cases/BugJira/AcademyUploadImage/AcademyUploadImage: Test Cases/BugJira/AcademyUploadImage/AcademyUploadImage
+
+2020-10-18 12:27:39 - [TEST_STEP][PASSED] - startExistingApplication("com.ezactive.sgb", STOP_ON_FAILURE): Starting app with application ID: 'com.ezactive.sgb'
+
+2020-10-18 12:27:42 - [MESSAGE][INFO] - ios_webkit_debug_proxy server started on port 52728
+
+2020-10-18 12:27:42 - [MESSAGE][INFO] - Start paring with device: 20d0959f04db979fd5d14f57b4c2ec9e98df5e9f ...
+
+2020-10-18 12:27:42 - [MESSAGE][INFO] - Device 20d0959f04db979fd5d14f57b4c2ec9e98df5e9f is paired
+
+2020-10-18 12:27:45 - [MESSAGE][INFO] - Appium server started on port 52,731
+
+2020-10-18 12:28:20 - [MESSAGE][PASSED] - Starting app with application ID: 'com.ezactive.sgb'
+
+2020-10-18 12:28:20 - [TEST_STEP][PASSED] - tap(findTestObject("SGB/AcademyForm/UpdateRegisterAdult/academy"), 0): Tapped on element 'Object Repository/SGB/AcademyForm/UpdateRegisterAdult/academy'
+
+2020-10-18 12:28:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-10-18 12:28:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SGB/AcademyForm/UpdateRegisterAdult/academy'
+
+2020-10-18 12:28:22 - [TEST_STEP][PASSED] - tap(findTestObject("SGB/AcademyForm/UpdateRegisterAdult/registerUpdated"), 0, OPTIONAL): Tapped on element 'Object Repository/SGB/AcademyForm/UpdateRegisterAdult/registerUpdated'
+
+2020-10-18 12:28:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-10-18 12:28:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SGB/AcademyForm/UpdateRegisterAdult/registerUpdated'
+
+2020-10-18 12:28:24 - [TEST_STEP][PASSED] - tap(findTestObject("SGB/AcademyForm/UpdateRegisterAdult/uploadImageNRIC"), 3000): Tapped on element 'Object Repository/SGB/AcademyForm/UpdateRegisterAdult/uploadImageNRIC'
+
+2020-10-18 12:28:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SGB/AcademyForm/UpdateRegisterAdult/uploadImageNRIC'
+
+2020-10-18 12:28:29 - [TEST_STEP][PASSED] - tap(findTestObject("SGB/DoneButton/XCUIElementTypeButton - Done"), 5000): Tapped on element 'Object Repository/SGB/DoneButton/XCUIElementTypeButton - Done'
+
+2020-10-18 12:28:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SGB/DoneButton/XCUIElementTypeButton - Done'
+
+2020-10-18 12:28:32 - [TEST_STEP][PASSED] - delay(9, STOP_ON_FAILURE): Delayed 9 second(s)
+
+2020-10-18 12:28:41 - [MESSAGE][PASSED] - Delayed 9 second(s)
+
+2020-10-18 12:28:41 - [TEST_STEP][PASSED] - swipe(500, 500, 500, 200): Swiped from 500,500 to 500,200
+
+2020-10-18 12:28:42 - [MESSAGE][PASSED] - Swiped from 500,500 to 500,200
+
+2020-10-18 12:28:42 - [TEST_STEP][PASSED] - tap(findTestObject("SGB/AcademyForm/UpdateRegisterAdult/uploadImageBackOfNRIC"), 0): Tapped on element 'Object Repository/SGB/AcademyForm/UpdateRegisterAdult/uploadImageBackOfNRIC'
+
+2020-10-18 12:28:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-10-18 12:28:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SGB/AcademyForm/UpdateRegisterAdult/uploadImageBackOfNRIC'
+
+2020-10-18 12:28:45 - [TEST_STEP][PASSED] - tap(findTestObject("SGB/DoneButton/XCUIElementTypeButton - Done"), 5000): Tapped on element 'Object Repository/SGB/DoneButton/XCUIElementTypeButton - Done'
+
+2020-10-18 12:28:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SGB/DoneButton/XCUIElementTypeButton - Done'
+
+2020-10-18 12:28:48 - [TEST_STEP][PASSED] - delay(9, STOP_ON_FAILURE): Delayed 9 second(s)
+
+2020-10-18 12:28:57 - [MESSAGE][PASSED] - Delayed 9 second(s)
+
+2020-10-18 12:28:57 - [TEST_STEP][PASSED] - swipe(500, 500, 500, 200): Swiped from 500,500 to 500,200
+
+2020-10-18 12:28:58 - [MESSAGE][PASSED] - Swiped from 500,500 to 500,200
+
+2020-10-18 12:28:58 - [TEST_STEP][PASSED] - tap(findTestObject("SGB/AcademyForm/UpdateRegisterAdult/uploadTraineePhoto"), 0): Tapped on element 'Object Repository/SGB/AcademyForm/UpdateRegisterAdult/uploadTraineePhoto'
+
+2020-10-18 12:28:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-10-18 12:29:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SGB/AcademyForm/UpdateRegisterAdult/uploadTraineePhoto'
+
+2020-10-18 12:29:00 - [TEST_STEP][PASSED] - tap(findTestObject("SGB/DoneButton/XCUIElementTypeButton - Done"), 5000): Tapped on element 'Object Repository/SGB/DoneButton/XCUIElementTypeButton - Done'
+
+2020-10-18 12:29:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SGB/DoneButton/XCUIElementTypeButton - Done'
+
+2020-10-18 12:29:03 - [TEST_STEP][PASSED] - delay(9, STOP_ON_FAILURE): Delayed 9 second(s)
+
+2020-10-18 12:29:12 - [MESSAGE][PASSED] - Delayed 9 second(s)
+
+2020-10-18 12:29:12 - [TEST_STEP][PASSED] - swipe(500, 500, 500, 300): Swiped from 500,500 to 500,300
+
+2020-10-18 12:29:13 - [MESSAGE][PASSED] - Swiped from 500,500 to 500,300
+
+2020-10-18 12:29:13 - [TEST_STEP][PASSED] - tap(findTestObject("SGB/AcademyForm/UpdateRegisterAdult/UpdateButton"), 0): Tapped on element 'Object Repository/SGB/AcademyForm/UpdateRegisterAdult/UpdateButton'
+
+2020-10-18 12:29:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-10-18 12:29:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SGB/AcademyForm/UpdateRegisterAdult/UpdateButton']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-18 12:27:38 - [TEST_SUITE][PASSED] - uploadImageAcademy: Test Cases/BugJira/AcademyUploadImage/AcademyUploadImage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
