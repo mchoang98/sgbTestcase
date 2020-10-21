@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>new bfa</name>
+   <name>SGB_TestCase</name>
    <tag></tag>
    <UUID>a97a2176-60b1-4156-9ead-ad3897797487</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/softwareclub/Katalon Studio/new bfa/new bfa.prj</projectFileLocation>
+   <projectFileLocation>/Users/softwareclub/git/sgbTestcase/new bfa.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

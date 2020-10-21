@@ -14,10 +14,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('null'), 
-    0)
+Mobile.tap(findTestObject('SGB/AcademyForm/img/All Photos'), 0)
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('SGB/AcademyForm/img/toanImg'), 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 

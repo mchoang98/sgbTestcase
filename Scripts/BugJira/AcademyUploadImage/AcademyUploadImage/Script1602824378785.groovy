@@ -23,6 +23,10 @@ Mobile.tap(findTestObject('SGB/AcademyForm/UpdateRegisterAdult/registerUpdated')
 
 Mobile.tap(findTestObject('SGB/AcademyForm/UpdateRegisterAdult/uploadImageNRIC'), 3000)
 
+Mobile.callTestCase(findTestCase('BugJira/AcademyUploadImage/Upload Photo Toan'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.swipe(24, 368, 24, 684)
+
 Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('SGB/ResetDone/Done'), 5000)
@@ -33,6 +37,10 @@ Mobile.swipe(500, 500, 500, 200)
 
 Mobile.tap(findTestObject('SGB/AcademyForm/UpdateRegisterAdult/uploadImageBackOfNRIC'), 0)
 
+Mobile.callTestCase(findTestCase('BugJira/AcademyUploadImage/Upload Photo'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.swipe(24, 368, 24, 684)
+
 Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('SGB/ResetDone/Done'), 5000)
@@ -42,6 +50,10 @@ Mobile.delay(9, FailureHandling.STOP_ON_FAILURE)
 Mobile.swipe(500, 500, 500, 200)
 
 Mobile.tap(findTestObject('SGB/AcademyForm/UpdateRegisterAdult/uploadTraineePhoto'), 0)
+
+Mobile.callTestCase(findTestCase('BugJira/AcademyUploadImage/Upload Photo Toan'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.swipe(24, 368, 24, 684)
 
 Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
 
