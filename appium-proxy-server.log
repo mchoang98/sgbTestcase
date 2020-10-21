@@ -1,6 +1,6 @@
 ss.add_fd(3)
 ss.recv fd=3 len=294
-ss.recv fd=3 len=773
+ss.recv fd=3 len=775
 ss.add_server_fd(4)
 ss.add_fd(6)
 wi.send_packet[174]:
@@ -9,9 +9,9 @@ wi.send_packet[174]:
  70 6F 72 74 49 64 65 6E 74 69 66 69 65 72 3A 5A 5F 5F 61  portIdentifier:Z__a
  72 67 75 6D 65 6E 74 D1 05 06 5F 10 1A 57 49 52 43 6F 6E  rgument..._..WIRCon
  6E 65 63 74 69 6F 6E 49 64 65 6E 74 69 66 69 65 72 4B 65  nectionIdentifierKe
- 79 5F 10 24 34 36 39 31 41 43 38 32 2D 36 37 35 32 2D 34  y_.$4691AC82-6752-4
- 34 33 45 2D 38 38 30 45 2D 38 37 37 46 33 37 41 42 39 35  43E-880E-877F37AB95
- 30 34 08 0D 18 31 3C 3F 5C 00 00 00 00 00 00 01 01 00 00  04...1<?\..........
+ 79 5F 10 24 37 39 36 31 35 34 41 34 2D 45 46 42 43 2D 34  y_.$796154A4-EFBC-4
+ 34 42 37 2D 41 36 35 34 2D 37 32 34 35 33 43 37 36 45 37  4B7-A654-72453C76E7
+ 43 44 08 0D 18 31 3C 3F 5C 00 00 00 00 00 00 01 01 00 00  CD...1<?\..........
  00 00 00 00 00 07 00 00 00 00 00 00 00 00 00 00 00 00 00  ...................
  00 00 83                                                  ...
 ss.accept server=4 new_client=5
@@ -21,8 +21,8 @@ ws.recv[155]:
  47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A           GET / HTTP/1.1..
  55 73 65 72 2D 41 67 65 6E 74 3A 20 4A 61 76 61 2F 31 2E  User-Agent: Java/1.
  38 2E 30 5F 31 38 31 0D 0A                                8.0_181..
- 48 6F 73 74 3A 20 6C 6F 63 61 6C 68 6F 73 74 3A 35 30 32  Host: localhost:502
- 39 38 0D 0A                                               98..
+ 48 6F 73 74 3A 20 6C 6F 63 61 6C 68 6F 73 74 3A 36 30 33  Host: localhost:603
+ 38 31 0D 0A                                               81..
  41 63 63 65 70 74 3A 20 74 65 78 74 2F 68 74 6D 6C 2C 20  Accept: text/html, 
  69 6D 61 67 65 2F 67 69 66 2C 20 69 6D 61 67 65 2F 6A 70  image/gif, image/jp
  65 67 2C 20 2A 3B 20 71 3D 2E 32 2C 20 2A 2F 2A 3B 20 71  eg, *; q=.2, */*; q
@@ -36,5 +36,5 @@ ss.remove_fd(6)
 Unable to connect to NTU Software Club (20d0959f04db979fd5d14f57b4c2ec9e98df5e9f)
   Please verify that Settings > Safari > Advanced > Web Inspector = ON
 ss.remove_server_fd(4)
-ss.recv fd=3 len=296
+ss.recv fd=3 len=297
 ss.remove_fd(3)
