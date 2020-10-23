@@ -19,7 +19,7 @@ Mobile.startExistingApplication('com.ezactive.sgb', FailureHandling.STOP_ON_FAIL
 
 Mobile.tap(findTestObject('SGB/AcademyForm/UpdateRegisterAdult/academy'), 0)
 
-Mobile.tap(findTestObject('SGB/AcademyForm/UpdateRegisterAdult/registerUpdated'), 0, FailureHandling.OPTIONAL)
+Mobile.tap(findTestObject('SGB/AcademyForm/NguyenQuangUpdate'), 0, FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('SGB/AcademyForm/UpdateRegisterAdult/uploadImageNRIC'), 3000)
 
@@ -63,5 +63,5 @@ Mobile.delay(9, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.swipe(500, 500, 500, 300)
 
-Mobile.tap(findTestObject('SGB/AcademyForm/UpdateRegisterAdult/UpdateButton'), 0)
+Mobile.tap(findTestObject('SGB/AcademyForm/UpdateRegister your child as trainee'), 0)
 
