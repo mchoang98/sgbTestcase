@@ -21,6 +21,8 @@ Mobile.tap(findTestObject('SGB/AcademyForm/UpdateRegisterAdult/academy'), 0)
 
 Mobile.tap(findTestObject('SGB/AcademyForm/NguyenQuangUpdate'), 0, FailureHandling.OPTIONAL)
 
+Mobile.tap(findTestObject('SGB/AcademyForm/NRIC'), 0)
+
 Mobile.tap(findTestObject('SGB/AcademyForm/UpdateRegisterAdult/uploadImageNRIC'), 3000)
 
 Mobile.callTestCase(findTestCase('BugJira/AcademyUploadImage/Upload Photo Toan'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -61,7 +63,11 @@ Mobile.tap(findTestObject('SGB/ResetDone/Done'), 5000)
 
 Mobile.delay(9, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.swipe(500, 500, 500, 300)
+Mobile.callTestCase(findTestCase('BugJira/AcademyUploadImage/ChangeMobileArea'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.swipe(500, 500, 500, 100)
+
+Mobile.callTestCase(findTestCase('BugJira/AcademyUploadImage/ChangeEcMobileArea'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('SGB/AcademyForm/UpdateRegister your child as trainee'), 0)
 

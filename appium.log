@@ -1,38 +1,38 @@
 [35m[Appium][39m Welcome to Appium v1.18.3
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 60368
+[35m[Appium][39m   port: 54375
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: /var/folders/ng/_y8c2std7zdd3kddhrpc2vz40000gn/T//Katalon/Appium/Temp1603246179347
-[35m[Appium][39m   chromedriverPort: 60369
+[35m[Appium][39m   tmpDir: /var/folders/ng/_y8c2std7zdd3kddhrpc2vz40000gn/T//Katalon/Appium/Temp1603420876743
+[35m[Appium][39m   chromedriverPort: 54376
 [35m[Appium][39m Deprecated server args:
-[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":60369}'
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":54376}'
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 60369
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:60368
+[35m[Appium][39m   chromedriverPort: 54376
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:54375
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m8 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"12.4.7","automationName":"XCUITest","bundleId":"com.ezactive.sgb","waitForAppScript":"true;","platformName":"iOS","udid":"20d0959f04db979fd5d14f57b4c2ec9e98df5e9f","deviceName":"NTU Software Club","wdaLocalPort":60380},"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.ezactive.sgb","appium:deviceName":"NTU Software Club","appium:newCommandTimeout":1800,"platformName":"ios","appium:platformVersion":"12.4.7","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:udid":"20d0959f04db979fd5d14f57b4c2ec9e98df5e9f","appium:waitForAppScript":"true;","appium:wdaLocalPort":60380}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"12.4.7","automationName":"XCUITest","bundleId":"com.ezactive.sgb","waitForAppScript":"true;","platformName":"iOS","udid":"20d0959f04db979fd5d14f57b4c2ec9e98df5e9f","deviceName":"NTU Software Club","wdaLocalPort":54387},"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.ezactive.sgb","appium:deviceName":"NTU Software Club","appium:newCommandTimeout":1800,"platformName":"ios","appium:platformVersion":"12.4.7","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:udid":"20d0959f04db979fd5d14f57b4c2ec9e98df5e9f","appium:waitForAppScript":"true;","appium:wdaLocalPort":54387}]}}[39m
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   realDeviceLogger
 [35m[BaseDriver][39m   chromedriverPort
 [35m[Appium][39m Appium v1.18.3 creating new XCUITestDriver (v3.29.0) session
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   chromedriverPort
-[35m[BaseDriver][39m Session created with session id: 2b40b809-4a6a-44d6-ba43-e5fb149fa635
+[35m[BaseDriver][39m Session created with session id: 82920d12-1650-4332-bccf-acbf24f4749c
 [35m[XCUITest][39m Determining device to run tests on: udid: '20d0959f04db979fd5d14f57b4c2ec9e98df5e9f', real device: true
 [35m[XCUITest][39m Normalized platformVersion capability value '12.4.7' to '12.4'
 [35m[WebDriverAgent][39m Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
 [35m[WebDriverAgent][39m Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
 [35m[XCUITest][39m Setting up real device
-[35m[DevCon Factory][39m Requesting connection for device 20d0959f04db979fd5d14f57b4c2ec9e98df5e9f on local port 60380, device port 60380
-[35m[DevCon Factory][39m Successfully requested the connection for 20d0959f04db979fd5d14f57b4c2ec9e98df5e9f:60380
+[35m[DevCon Factory][39m Requesting connection for device 20d0959f04db979fd5d14f57b4c2ec9e98df5e9f on local port 54387, device port 54387
+[35m[DevCon Factory][39m Successfully requested the connection for 20d0959f04db979fd5d14f57b4c2ec9e98df5e9f:54387
 [35m[WD Proxy][39m socket hang up
 [35m[WebDriverAgent][39m Launching WebDriverAgent on the device
 [35m[WebDriverAgent][39m Fetching dependencies
@@ -48,78 +48,59 @@
 [35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
-[35m[Appium][39m New XCUITestDriver session created successfully, session 2b40b809-4a6a-44d6-ba43-e5fb149fa635 added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m23340 ms - 677[39m
+[35m[Appium][39m New XCUITestDriver session created successfully, session 82920d12-1650-4332-bccf-acbf24f4749c added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m24641 ms - 677[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635 [39m[32m200[39m [90m1709 ms - 618[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c [39m[32m200[39m [90m1861 ms - 618[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635 [39m[32m200[39m [90m2 ms - 618[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c [39m[32m200[39m [90m2 ms - 618[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c/timeouts [39m[32m200[39m [90m2 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/appium/device/activate_app[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c/appium/device/activate_app[39m
 [35m[HTTP][39m [90m{"bundleId":"com.ezactive.sgb"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/appium/device/activate_app [39m[32m200[39m [90m2790 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c/appium/device/activate_app [39m[32m200[39m [90m2708 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/execute/sync[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c/execute/sync[39m
 [35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/execute/sync [39m[32m200[39m [90m735 ms - 10331[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c/execute/sync [39m[32m200[39m [90m837 ms - 11943[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/screenshot [39m[32m200[39m [90m287 ms - 857732[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c/screenshot [39m[32m200[39m [90m302 ms - 860992[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/execute/sync[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c/execute/sync[39m
 [35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/execute/sync [39m[32m200[39m [90m1791 ms - 25767[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c/execute/sync [39m[32m200[39m [90m1188 ms - 24470[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/screenshot [39m[32m200[39m [90m560 ms - 3325388[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c/screenshot [39m[32m200[39m [90m320 ms - 1194632[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/elements[39m
-[35m[HTTP][39m [90m{"using":"name","value":"phu hoang Updated"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/elements [39m[32m200[39m [90m585 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c/elements[39m
+[35m[HTTP][39m [90m{"using":"name","value":"OK"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c/elements [39m[32m200[39m [90m566 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/execute/sync[39m
-[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/execute/sync [39m[32m200[39m [90m1515 ms - 25769[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/screenshot [39m[32m200[39m [90m510 ms - 2961992[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/elements[39m
-[35m[HTTP][39m [90m{"using":"name","value":"phu hoang Updated"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/elements [39m[32m200[39m [90m576 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/elements[39m
-[35m[HTTP][39m [90m{"using":"name","value":"Front of NRIC"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/elements [39m[32m200[39m [90m766 ms - 267[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/elements[39m
-[35m[HTTP][39m [90m{"using":"-ios class chain","value":"**/XCUIElementTypeTextField[`enabled == 1 AND label == 'Front of NRIC' AND name == 'Front of NRIC' AND value == '5f8f97cd3fa70.jpeg'`]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635/elements [39m[32m200[39m [90m60260 ms - 12[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[Appium][39m Removing session 2b40b809-4a6a-44d6-ba43-e5fb149fa635 from our master session list
+[35m[Appium][39m Removing session 82920d12-1650-4332-bccf-acbf24f4749c from our master session list
 [35m[DevCon Factory][39m Releasing connections for 20d0959f04db979fd5d14f57b4c2ec9e98df5e9f device on any port number
-[35m[DevCon Factory][39m Found cached connections to release: ["20d0959f04db979fd5d14f57b4c2ec9e98df5e9f:60380"]
-[35m[DevCon Factory][39m Releasing the listener for '20d0959f04db979fd5d14f57b4c2ec9e98df5e9f:60380'
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/2b40b809-4a6a-44d6-ba43-e5fb149fa635 [39m[32m200[39m [90m1137 ms - 14[39m
+[35m[DevCon Factory][39m Found cached connections to release: ["20d0959f04db979fd5d14f57b4c2ec9e98df5e9f:54387"]
+[35m[DevCon Factory][39m Releasing the listener for '20d0959f04db979fd5d14f57b4c2ec9e98df5e9f:54387'
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/82920d12-1650-4332-bccf-acbf24f4749c [39m[32m200[39m [90m1068 ms - 14[39m
 [35m[HTTP][39m [90m[39m
