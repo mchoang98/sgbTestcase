@@ -19,5 +19,5 @@ Mobile.tap(findTestObject('SGB/AcademyForm/img/All Photos'), 0)
 
 Mobile.tap(findTestObject('SGB/AcademyForm/img/neneImg'), 0)
 
-Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

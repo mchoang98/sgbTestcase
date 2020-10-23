@@ -15,9 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('SGB/AcademyForm/img/All Photos'), 0)
+Mobile.swipe(24, 368, 24, 684)
 
-Mobile.tap(findTestObject('SGB/AcademyForm/img/toanImg'), 0)
+Mobile.delay(6, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.tapAndHold(findTestObject('SGB/AcademyForm/ResetDone Button/Done2'), 3, 0, FailureHandling.OPTIONAL)
+
+Mobile.delay(9, FailureHandling.STOP_ON_FAILURE)
 
