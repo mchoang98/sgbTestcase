@@ -15,6 +15,6 @@
       <guid>370e8576-300f-47d9-8f8e-6571e243e2a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BugJira/AcademyUploadImage/AcademyUploadImage</testCaseId>
+      <testCaseId>Test Cases/Menu Screen/Academy/Aca Main Test</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
