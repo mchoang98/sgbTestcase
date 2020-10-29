@@ -27,23 +27,19 @@ Mobile.tap(findTestObject('SGB/AcademyForm/Upload Image Button/FrontINIC'), 0)
 
 Mobile.callTestCase(findTestCase('Menu Screen/Academy/AcademyUploadImage/Upload Photo Toan'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Menu Screen/Academy/AcademyUploadImage/CropImage'), [:], FailureHandling.STOP_ON_FAILURE)
-
 Mobile.swipe(500, 500, 500, 200)
 
 Mobile.tap(findTestObject('SGB/AcademyForm/Upload Image Button/backNRIC'), 0)
 
 Mobile.callTestCase(findTestCase('Menu Screen/Academy/AcademyUploadImage/Upload Photo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Menu Screen/Academy/AcademyUploadImage/CropImage'), [:], FailureHandling.STOP_ON_FAILURE)
-
 Mobile.swipe(500, 500, 500, 200)
 
-Mobile.tap(findTestObject('SGB/AcademyForm/Upload Image Button/TraineePhoto'), 0)
+Mobile.delay(6, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('SGB/AcademyForm/Upload Image Button/upload Trainee photo'), 0)
 
 Mobile.callTestCase(findTestCase('Menu Screen/Academy/AcademyUploadImage/Upload Photo Toan'), [:], FailureHandling.STOP_ON_FAILURE)
-
-Mobile.callTestCase(findTestCase('Menu Screen/Academy/AcademyUploadImage/CropImage'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(9, FailureHandling.STOP_ON_FAILURE)
 
@@ -55,6 +51,5 @@ Mobile.swipe(500, 500, 500, 100)
 
 Mobile.callTestCase(findTestCase('Menu Screen/Academy/AcademyUploadImage/ChangeEcMobileArea'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('SGB/AcademyForm/UpdateRegisterAdult/XCUIElementTypeButton - Register your child as trainee'), 
-    0)
+Mobile.tap(findTestObject('SGB/IOS object/Buttons/update button'), 0)
 
