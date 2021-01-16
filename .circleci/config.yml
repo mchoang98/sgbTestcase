@@ -7,4 +7,4 @@ workflows:
       - katalon-studio/run:
           version: latest
           command_arguments: >-
-         -retry=0 -testSuitePath="Test Suites/NewTestSuite" -executionProfile="default" -browserType="Chrome" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true
+            -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test Suites/NewTestSuite'
